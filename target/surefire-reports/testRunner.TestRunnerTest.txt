@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.02 s <<< FAILURE! -- in testRunner.TestRunnerTest
+Test Login Functionality.Login with valid credentials -- Time elapsed: 14.85 s <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Logged In Successfully] | Practice Test Aut...> but was:<[Test Login] | Practice Test Aut...>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.LoginSteps.user_logged_in_successfully_and_the_title_of_the_current_page_should_be(LoginSteps.java:63)
+	at ✽.user logged in successfully and the title of the current page should be "Logged In Successfully | Practice Test Automation"(classpath:features/LoginTest.feature:7)
+
